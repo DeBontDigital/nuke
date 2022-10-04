@@ -1,0 +1,23 @@
+set cut_paste_input [stack 0]
+version 13.1 v1
+push $cut_paste_input
+Group {
+ name Group1
+ selected true
+ xpos -40
+ ypos -185
+ addUserKnob {20 User}
+ addUserKnob {26 FFteste l testen}
+ addUserKnob {12 slider}
+}
+ Input {
+  inputs 0
+  name Input1
+  xpos 0
+ }
+ Output {
+  name Output1
+  xpos 0
+  ypos 300
+ }
+end_group
